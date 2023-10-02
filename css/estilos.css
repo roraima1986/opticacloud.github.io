@@ -1,0 +1,143 @@
+/************Generales*************/
+
+.banner{
+	background-image: url("../img/banner-1-opticacloud-software-para-opticas-chile-venezuela.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center left;
+}
+
+.fondo{
+	background: rgba(245,245,245,1);
+}
+
+.fondo-izquierdo{
+	background: linear-gradient(170deg, rgba(245,245,245,1) 50%, rgba(255,255,255,1) 50%);
+}
+
+.fondo-derecho{
+	background: linear-gradient(-170deg, rgba(255,255,255,1) 50%, rgba(245,245,245,1) 50%);
+}
+
+.fondo-medio{
+	background: linear-gradient(170deg, rgba(255,255,255,1) 50%, rgba(245,245,245,1) 50%);
+}
+
+.fondo-reverso{
+	background: linear-gradient(-170deg, rgba(245,245,245,1) 50%, rgba(255,255,255,1) 50%);
+}
+
+.bg-azul{
+	background: #2196f3;			
+}
+
+
+.letras-azules{
+	color: #2196f3!important;
+}
+
+
+.text-justify{
+	text-align: justify;
+}
+
+p{
+	color: #6c757d!important;
+}
+
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn:hover{	
+	transform: translate(0px,-2px);
+	transition:all .30s ease-in-out;
+}
+
+.btn-slide{
+	background-color: #03A9F4;	
+	padding: 20px!important;		
+}
+
+.btn-pagina-web{	
+	padding:10px;	
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:10px;
+	border-radius: 50%;
+}
+
+/***********Responsive sm************/
+@media (max-width: 767px) {
+	.display-6 {
+		font-size: 25px!important;
+	}	
+
+	.py-5{
+		padding-bottom: 25px!important;
+		padding-top: 25px!important;
+	}
+
+	.fs-3{
+		font-size: 20px!important;
+	}
+
+	.fs-5{
+		font-size: 16px!important;
+	}
+
+	.img-oculto{		
+		display: none;
+	}
+
+	.btn-lg{
+		font-size: 18px!important;
+	}	
+}
+
+/***********Responsive md************/
+
+
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+	.display-5 {
+		font-size: 30px!important;
+	}
+	
+	.display-6 {
+		font-size: 25px!important;
+	}
+
+	.fs-3{
+		font-size: 18px!important;
+	}
+
+	.fs-5{
+		font-size: 16px!important;
+	}
+
+
+	.btn-lg{
+		font-size: 16px!important;
+	}
+
+	.card-title{
+		font-size: 20px!important;
+	}
+
+
+}
+
+
+
+
+
+
+
